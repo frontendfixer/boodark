@@ -1,0 +1,8 @@
+{
+    "name": "BooDark Slim",
+    "version": "0.1.0",
+    "description": "Bootstrap Dark theme for phpMyAdmin",
+    "author": "frontendfixer",
+    "url": "https://github.com/frontendfixer/boodark",
+    "supports": ["5.2"]
+}

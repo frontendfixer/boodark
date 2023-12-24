@@ -11,7 +11,7 @@ exports.commonConfig = ({ mode }) => (
       devtool: 'source-map',
       entry: {
         'theme': themePath + '/scss/theme.scss',
-        'theme-nord': themePath + '/scss/theme-nord.scss',
+        'theme-cyan': themePath + '/scss/theme-cyan.scss',
         'theme-teal': themePath + '/scss/theme-teal.scss',
         'theme-orange': themePath + '/scss/theme-orange.scss',
       },

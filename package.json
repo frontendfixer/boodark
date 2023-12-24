@@ -1,9 +1,9 @@
 {
-  "name": "boodark",
-  "version": "1.1.1",
+  "name": "boodark-slim",
+  "version": "0.1.0",
   "description": "Bootstrap Dark theme for phpMyAdmin",
-  "repository": "https://github.com/adorade/boodark.git",
-  "author": "Adorade",
+  "repository": "https://github.com/frontendfixer/boodark.git",
+  "author": "Frontendfixer",
   "scripts": {
     "postinstall": "pnpm run build",
     "build": "pnpm run build:prod",
@@ -24,8 +24,6 @@
     "postcss": "8.4.31",
     "postcss-cli": "10.1.0",
     "postcss-loader": "7.3.3",
-    "rtlcss": "4.1.1",
-    "rtlcss-webpack-plugin": "4.0.7",
     "sass": "1.64.2",
     "sass-loader": "13.3.2",
     "webpack": "5.89.0",

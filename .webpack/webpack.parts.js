@@ -1,6 +1,5 @@
 const autoprefixer = require('autoprefixer');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const RtlCssPlugin = require('rtlcss-webpack-plugin');
 
 exports.extractScss = () => ({
   module: {
@@ -28,9 +27,6 @@ exports.extractScss = () => ({
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css',
-    }),
-    new RtlCssPlugin({
-      filename: '[name].rtl.css',
-    }),
+    })
   ],
 });
