@@ -5,8 +5,8 @@
   "repository": "https://github.com/adorade/boodark.git",
   "author": "Adorade",
   "scripts": {
-    "postinstall": "yarn run build",
-    "build": "yarn run build:prod",
+    "postinstall": "pnpm run build",
+    "build": "pnpm run build:prod",
     "build:analyze": "webpack --progress --mode=production --analyze",
     "build:dev": "webpack --progress --mode=development",
     "build:prod": "webpack --progress --mode=production",
