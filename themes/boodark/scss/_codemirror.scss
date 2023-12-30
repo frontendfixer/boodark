@@ -43,12 +43,12 @@ $textarea-rows: 15;
 }
 
 #inline_editor_outer .CodeMirror {
-  height: ceil($textarea-rows * .4em);
+  height: ceil($textarea-rows * 0.4em);
 }
 
 .insertRowTable .CodeMirror {
-  min-height: ceil($textarea-rows * .6em);
-  min-width: ceil($textarea-cols * .6em);
+  min-height: ceil($textarea-rows * 0.6em);
+  min-width: ceil($textarea-cols * 0.6em);
   border: 1px solid #a9a9a9;
 }
 
@@ -60,17 +60,49 @@ $textarea-rows: 15;
 // CodeMirror dracula theme
 // https://codemirror.net/5/theme/dracula.css
 .cm-s-default {
-  .cm-keyword, .cm-statement-verb { color: #ff79c6; }
-  .cm-variable { color: #50fa7b; }
-  .cm-comment { color: #6272a4; }
-  .cm-mysql-string { color: #008000; }
-  .cm-operator { color: #ff79c6; }
-  .cm-mysql-word { color: white; }
-  .cm-builtin { color: #50fa7b; }
-  .cm-variable-2 { color: white; }
-  .cm-variable-3 { color: #ffb86c; }
-  .cm-separator { color: fuchsia; }
-  .cm-number { color: #bd93f9; }
+  .cm-keyword,
+  .cm-statement-verb {
+    color: #ff79c6;
+  }
+  .cm-variable {
+    color: #50fa7b;
+  }
+  .cm-comment {
+    color: #6272a4;
+  }
+  .cm-mysql-string {
+    color: #008000;
+  }
+  .cm-operator {
+    color: #ff79c6;
+  }
+  .cm-mysql-word {
+    color: white;
+  }
+  .cm-builtin {
+    color: #50fa7b;
+  }
+  .cm-variable-2 {
+    color: white;
+  }
+  .cm-variable-3 {
+    color: #ffb86c;
+  }
+  .cm-separator {
+    color: fuchsia;
+  }
+  .cm-number {
+    color: #f593f9;
+  }
+  .cm-type {
+    color: #50fa7b;
+  }
+  .com-atom {
+    color: #b0a5ff;
+  }
+  .cm-string {
+    color: #ffe300;
+  }
 }
 
 .autocomplete-column-name {
