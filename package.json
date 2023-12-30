@@ -5,8 +5,8 @@
   "repository": "https://github.com/frontendfixer/boodark.git",
   "author": "Frontendfixer",
   "scripts": {
-    "postinstall": "pnpm run build",
-    "build": "pnpm run build:prod",
+    "postinstall": "npm run build",
+    "build": "npm run build:prod",
     "build:analyze": "webpack --progress --mode=production --analyze",
     "build:dev": "webpack --progress --mode=development",
     "build:prod": "webpack --progress --mode=production",
